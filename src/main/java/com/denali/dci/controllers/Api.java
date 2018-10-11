@@ -28,13 +28,13 @@ public class Api {
 
 	public Api() {
 		accounts = new ArrayList<>();
-		accounts.add(new Account(1, 1, "111111"));
-		accounts.add(new Account(2, 2, "222222"));
-		accounts.add(new Account(3, 3, "333333"));
-		accounts.add(new Account(4, 4, "444444"));
-		accounts.add(new Account(5, 1, "555555"));
-		accounts.add(new Account(6, 2, "666666"));
-		accounts.add(new Account(7, 2, "777777"));
+		accounts.add(new Account(1, 1, "232323"));
+		accounts.add(new Account(2, 2, "Ariv"));
+		accounts.add(new Account(3, 3, "Test"));
+		accounts.add(new Account(4, 4, "fff"));
+		accounts.add(new Account(5, 1, "ffg"));
+		accounts.add(new Account(6, 2, "dfdg"));
+		accounts.add(new Account(7, 2, "fg"));
 	}
 
 	@RequestMapping("/accounts/{number}")
